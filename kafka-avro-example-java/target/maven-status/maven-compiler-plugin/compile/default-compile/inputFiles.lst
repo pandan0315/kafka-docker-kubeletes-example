@@ -1,0 +1,5 @@
+/home/pandan/Developer/docker-kubeletes-example/kafka-avro-example/src/main/java/example/avro/User.java
+/home/pandan/Developer/docker-kubeletes-example/kafka-avro-example/src/main/java/AvroMessageConsumer.java
+/home/pandan/Developer/docker-kubeletes-example/kafka-avro-example/src/main/java/producer/AvroProducer.java
+/home/pandan/Developer/docker-kubeletes-example/kafka-avro-example/src/main/java/AvroMessageProducer.java
+/home/pandan/Developer/docker-kubeletes-example/kafka-avro-example/src/main/java/consumer/AvroConsumer.java

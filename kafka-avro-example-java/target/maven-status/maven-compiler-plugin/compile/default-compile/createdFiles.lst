@@ -1,0 +1,6 @@
+example/avro/User.class
+AvroMessageConsumer.class
+consumer/AvroConsumer.class
+AvroMessageProducer.class
+example/avro/User$Builder.class
+producer/AvroProducer.class
