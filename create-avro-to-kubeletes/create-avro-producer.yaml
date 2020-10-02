@@ -1,0 +1,22 @@
+
+## ------------------------------------------------------
+## avro message producer manifest
+## ------------------------------------------------------
+apiVersion: v1
+kind: Pod
+metadata:
+  name: avro-producer
+spec:
+  containers:
+    - name: avro-producer
+      image: pandan0315/avro-producer
+      env:
+        - name: kafka
+        # replace kafka bootstrap server 
+          value: my-confluence-cp-kafka:9092
+        - name: schemaUrl
+        # replace schema URL 
+          value: http://my-confluence-cp-schema-registry:8081
+        # replace kafka topic name
+        - name : topic
+          value: avrotest

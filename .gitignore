@@ -1,0 +1,24 @@
+##############################
+## IntelliJ
+##############################
+kafka-avro-example/out/
+kafka-avro-example/.idea/
+kafka-avro-example/.idea_modules/
+kafka-avro-example/*.iml
+kafka-avro-example/*.ipr
+kafka-avro-example/*.iws
+
+##############################
+## Maven
+##############################
+kafka-avro-example/target/
+kafka-avro-example/pom.xml.tag
+kafka-avro-example/pom.xml.releaseBackup
+kafka-avro-example/pom.xml.versionsBackup
+kafka-avro-example/pom.xml.next
+kafka-avro-example/pom.xml.bak
+kafka-avro-example/release.properties
+kafka-avro-example/dependency-reduced-pom.xml
+kafka-avro-example/buildNumber.properties
+kafka-avro-example/.mvn/timing.properties
+kafka-avro-example/.mvn/wrapper/maven-wrapper.jar

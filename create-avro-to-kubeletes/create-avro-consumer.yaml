@@ -1,0 +1,25 @@
+
+## ------------------------------------------------------
+## avro message consumer manifest
+## ------------------------------------------------------
+apiVersion: v1
+kind: Pod
+metadata:
+  name: avro-consumer
+spec:
+  containers:
+    - name: avro-consumer
+      image: pandan0315/avro-consumer
+      env:
+        - name: kafka
+        # replace kafka bootstrap server 
+          value: my-confluence-cp-kafka:9092
+        - name: groupId
+        # replace groupId
+          value: group1
+        - name: schemaUrl
+        # replace Schema URL
+          value: http://my-confluence-cp-schema-registry:8081
+        - name : topic
+        # replace kafka topic name
+          value: avrotest
